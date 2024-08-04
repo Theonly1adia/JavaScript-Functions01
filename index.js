@@ -1,12 +1,16 @@
 console.log("hello world ");
 
-//Refrain
-console.log("Nah to the ah to the, no, no, no");
+
+function refrain(){
+    console.log("Nah to the ah to the, no, no, no");
 console.log("My name is no, my sign is no, my number is no, uh");
 console.log("You need to let it go, uh");
 console.log("You need to let it go, uh");
 console.log("Need to let it go, uh");
 console.log("Nah to the ah to the, no, no, no");
+}
+//Refrain
+refrain();
 
 //Verse 1
 console.log("First you gonna say you ain't runnin' game");
@@ -23,13 +27,7 @@ console.log("Lick your lips and swing your hips");
 console.log("Girl, all you gotta say is");
 
 //Refrain 1
-console.log("Nah to the ah to the, no, no, no");
-console.log("My name is no, my sign is no, my number is no, uh");
-console.log("You need to let it go, uh");
-console.log("You need to let it go, uh");
-console.log("Need to let it go, uh");
-console.log("Nah to the ah to the, no, no, no");
-
+refrain();
 
 //Verse 2
 console.log("Thank you in advance, I don't wanna dance (nope)");
