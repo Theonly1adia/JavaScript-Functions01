@@ -10,9 +10,21 @@ words += "I'm the man, I'm the man, I'm the man<br><br>"
 lyrics.innerHTML += words;
 }
 
+function refrain2(){
+    let words = "";
+    words += "Stand up now and face the sun <br>"
+    words += "Won't hide my tail or turn and run <br>"
+    words += "It's time to do what must be done <br>"
+    words += "Be a king when kingdom comes <br><br>"
+    lyrics.innerHTML += words;
+}
+
 
 
 function song(){
+
+refrain();
+
 let verse1 = "";
 verse1 += "I believe every lie that I ever told <br>";
 verse1 += "Paid for every heart that I ever stole <br>"
@@ -25,6 +37,10 @@ verse1 += "Then he broke that mold so I know I'm blessed <br>";
 verse1 += " this is my world<br><br>";
 lyrics.innerHTML += verse1;
 
+refrain2();
+
+refrain();
+
 refrain();
 
 //Verse2 
@@ -36,14 +52,19 @@ verse2 += "I'll be the quick relief to all your stressin' this is my world <br>"
 verse2 += "It's a thin line between love and hate <br>";
 verse2 += "Is you really real or is you really fake <br>";
 verse2 += "I'm a soldier standing on my feet <br>";
-verse2 += "No surrender and I won't retreat this is my world <br>";
+verse2 += "No surrender and I won't retreat this is my world <br><br>";
 lyrics.innerHTML += verse2;
+
+refrain2();
+
+refrain();
 }
 
-songLyricsButton.onclick = song;
 
 
 
+    songLyricsButton.onclick = song;
+    button.addEventListener("click", handleClick);
 
 
 
